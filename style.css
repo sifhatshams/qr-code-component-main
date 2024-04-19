@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.card{
+  font-family: "Outfit";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color:hsl(212, 45%, 89%);  
+}
+.contain{
+  background-color: White;
+  height: 497px;
+  width: 320px;
+  border-radius: 20px;
+  padding: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0px 24px 20px rgba(101, 101, 101, 0.1);  
+}
+.contain img {
+    border-radius: 10px;
+    height: 280px;
+    width: 280px;  
+}
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    color:hsl(218, 44%, 22%);
+    margin-top: 25px;
+    margin-bottom: 0;
+    max-width: 254px;
+  }
+  
+  .sub-title {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 41px;
+    margin-top: 16px;
+    max-width: 243px;
+  }
+  .attribution{
+    padding: 80px 50px 0px;
+    /* margin: 80px 50px 0px; */
+
+
+/* which one use good between them padding & margin or or how to do this ?.
+your feedback is too valuable for me so dont forget to feedback*/
+  }
